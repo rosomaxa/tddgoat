@@ -76,7 +76,7 @@ class NewVisitorTest(LiveServerTestCase):
         inputbox.send_keys('Buy milk')
         inputbox.send_keys(Keys.ENTER)
 
-        # Francis gets hiw own unique URL
+        # Francis gets his own unique URL
         francis_list_url = self.browser.current_url
         self.assertRegexpMatches(francis_list_url, '/lists/.+')
         self.assertNotEqual(francis_list_url, edith_list_url)
