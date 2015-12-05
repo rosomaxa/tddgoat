@@ -1,2 +1,7 @@
 db.sqlite3
 *.pyc
+*.xml
+DS_8
+DS_S*
+.DS_S*
+.idea*
