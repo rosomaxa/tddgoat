@@ -1,4 +1,4 @@
-from models import Item, List
+from lists.models import Item, List
 from django.shortcuts import redirect, render
 
 
