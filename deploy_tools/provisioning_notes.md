@@ -28,10 +28,10 @@ eg, on Ubuntu:
 Assume we have a user account at /home/username
 
 /home/username
-|____sites
-    |____SITENAME
-        |____database
-        |____source
-        |____static
-        |____virtualenv
+|----sites
+    |----SITENAME
+        |----database
+        |----source
+        |----static
+        |----virtualenv
 
