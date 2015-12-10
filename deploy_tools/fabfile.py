@@ -1,9 +1,12 @@
 from fabric.contrib.files import append, exists, sed
-from fabric.api import env, local, run
+from fabric.api import *
 import random
-
+import os
 
 REPO_URL = 'https://github.com/rosomaxa/tddgoat.git'
+env.user = 'ololo'
+env.hosts = ['superlists-stage.tddgoat.net']
+env.key_filename = os.path.expanduser('~') + '/Downloads/amazon/ololo.pem'
 
 
 def deploy():
